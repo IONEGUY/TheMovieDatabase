@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="57" id="KGk-i7-Jjw" customClass="MovieParamTableViewCell" customModule="TheMovieDatabase" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="57"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="57"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2C-st-cn7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="HZ6-8c-PR6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JwN-dN-hmv">
+                        <rect key="frame" x="6" y="26" width="314" height="16"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="JwN-dN-hmv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="7lC-Sl-eTJ"/>
+                    <constraint firstAttribute="bottom" secondItem="JwN-dN-hmv" secondAttribute="bottom" constant="15" id="8lM-wf-kIF"/>
+                    <constraint firstItem="k2C-st-cn7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="DWS-ZN-xha"/>
+                    <constraint firstAttribute="trailing" secondItem="k2C-st-cn7" secondAttribute="trailing" id="Ikn-wc-H5C"/>
+                    <constraint firstItem="k2C-st-cn7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="JgU-4d-QxT"/>
+                    <constraint firstAttribute="trailing" secondItem="JwN-dN-hmv" secondAttribute="trailing" id="awS-EX-jBF"/>
+                    <constraint firstItem="JwN-dN-hmv" firstAttribute="top" secondItem="k2C-st-cn7" secondAttribute="bottom" constant="2" id="kCY-bA-d2j"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="paramValueLabel" destination="JwN-dN-hmv" id="MJ3-0Z-I68"/>
+                <outlet property="titleLabel" destination="k2C-st-cn7" id="Prn-d3-ecU"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="141.62946428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
