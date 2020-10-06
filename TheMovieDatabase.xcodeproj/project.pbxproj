@@ -28,7 +28,6 @@
 		FA4DAA4524DB3E3E007862F9 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4DAA4424DB3E3E007862F9 /* ErrorHandler.swift */; };
 		FA4DAA4724DB3EA0007862F9 /* AlertDialogHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4DAA4624DB3EA0007862F9 /* AlertDialogHelper.swift */; };
 		FAB6FADE24D9BB2C0063C912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6FADD24D9BB2C0063C912 /* AppDelegate.swift */; };
-		FAB6FAE024D9BB2C0063C912 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6FADF24D9BB2C0063C912 /* SceneDelegate.swift */; };
 		FAB6FAE724D9BB2E0063C912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB6FAE624D9BB2E0063C912 /* Assets.xcassets */; };
 		FAB6FAEA24D9BB2E0063C912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB6FAE824D9BB2E0063C912 /* LaunchScreen.storyboard */; };
 		FAB6FAF524D9BB2E0063C912 /* TheMovieDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6FAF424D9BB2E0063C912 /* TheMovieDatabaseTests.swift */; };
@@ -71,7 +70,6 @@
 		FA4DAA4624DB3EA0007862F9 /* AlertDialogHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDialogHelper.swift; sourceTree = "<group>"; };
 		FAB6FADA24D9BB2C0063C912 /* TheMovieDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMovieDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB6FADD24D9BB2C0063C912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAB6FADF24D9BB2C0063C912 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FAB6FAE624D9BB2E0063C912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB6FAE924D9BB2E0063C912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAB6FAEB24D9BB2E0063C912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -209,7 +207,6 @@
 				FA4D6E9024D9E287007D33E3 /* Extensions */,
 				FAB6FB0D24D9C2E80063C912 /* ViewControllers */,
 				FAB6FADD24D9BB2C0063C912 /* AppDelegate.swift */,
-				FAB6FADF24D9BB2C0063C912 /* SceneDelegate.swift */,
 				FAB6FAE624D9BB2E0063C912 /* Assets.xcassets */,
 				FAB6FAE824D9BB2E0063C912 /* LaunchScreen.storyboard */,
 				FAB6FAEB24D9BB2E0063C912 /* Info.plist */,
@@ -366,7 +363,6 @@
 				FA4DAA4324DB3DDC007862F9 /* AlertErrorMessageHandler.swift in Sources */,
 				FAB6FADE24D9BB2C0063C912 /* AppDelegate.swift in Sources */,
 				FAB6FB1A24D9CE920063C912 /* TopRatedMoviesViewController.swift in Sources */,
-				FAB6FAE024D9BB2C0063C912 /* SceneDelegate.swift in Sources */,
 				FA4D6EA524D9F3C7007D33E3 /* MoviesService.swift in Sources */,
 				FA4D6EA224D9EC28007D33E3 /* LoadingCell.swift in Sources */,
 				FA4D6EA924DA0496007D33E3 /* MovieCellModel.swift in Sources */,
@@ -462,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -516,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -532,7 +528,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TheMovieDatabase/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -550,7 +546,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TheMovieDatabase/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
